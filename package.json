@@ -1,8 +1,7 @@
 {
-  "name": "linters",
+  "name": "@massimo-cassandro/linters-config",
   "version": "1.0.0",
   "description": "Css & js linters configurations",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +9,10 @@
     "type": "git",
     "url": "git+https://github.com/massimo-cassandro/linters-config.git#main"
   },
+  "bugs": {
+    "url": "https://github.com/massimo-cassandro/linters-config/issues"
+  },
+  "homepage": "https://github.com/massimo-cassandro/linters-config/tree/main#readme",
   "keywords": [
     "eslint",
     "stylelint",
@@ -17,7 +20,6 @@
     "scss",
     "js"
   ],
-
   "stylelint": {
     "extends": "./stylelintrc.js",
     "ignoreFiles": [
@@ -25,12 +27,11 @@
     ],
     "rules": {}
   },
-    "eslintConfig": {
+  "eslintConfig": {
     "extends": "./eslintrc.js",
     "ignorePatterns": [],
     "rules": {}
   },
-
   "author": "Massimo Cassandro",
   "license": "MIT",
   "dependencies": {
@@ -40,5 +41,7 @@
     "stylelint-config-standard": "^25.0.0",
     "stylelint-config-twbs-bootstrap": "^3.0.1",
     "stylelint-order": "^5.0.0"
-  }
+  },
+
+  "devDependencies": {}
 }
