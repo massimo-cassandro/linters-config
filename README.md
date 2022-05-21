@@ -2,6 +2,7 @@
 
 
 In `package.json`
+
 ```json
 {
   "stylelint": {
