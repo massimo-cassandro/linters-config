@@ -3,7 +3,7 @@
 
 module.exports = {
   extends: [
-    "stylelint-config-twbs-bootstrap/"
+    'stylelint-config-twbs-bootstrap/'
     // 'stylelint-config-standard'
   ],
   // 'plugins': [
@@ -81,6 +81,12 @@ module.exports = {
     'selector-attribute-quotes': 'always',
     'selector-class-pattern': '^[a-z][a-z0-9\\-]*[a-z0-9]$',
     'selector-list-comma-newline-after': 'always-multi-line',
+    'selector-max-type': [
+      3,
+      {
+        ignore: ['child', 'compounded', 'descendant', 'next-sibling']
+      }
+    ],
 
     'selector-no-qualifying-type': [
       false,
@@ -101,7 +107,7 @@ module.exports = {
     'string-quotes': 'single', // 'double'
 
     'value-keyword-case': [
-      "lower",
+      'lower',
       {
         ignoreKeywords: ['currentColor']
       }
@@ -377,4 +383,4 @@ module.exports = {
       }
     }
   ]
-}
+};
