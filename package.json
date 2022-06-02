@@ -1,9 +1,11 @@
 {
   "name": "@massimo-cassandro/linters-config",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Css & js linters configurations",
   "scripts": {
-    "npm update": "npm update"
+    "npm update": "npm update",
+    "upd vers + npm publish": "node update-version.mjs && npm publish",
+    "upd vers": "node update-version.mjs"
   },
   "repository": {
     "type": "git",
@@ -35,13 +37,11 @@
   "author": "Massimo Cassandro",
   "license": "MIT",
   "dependencies": {
-    "eslint": "^8.14.0",
-    "stylelint": "^14.8.0",
+    "eslint": "^8.16.0",
+    "stylelint": "^14.8.5",
     "stylelint-config-recommended-scss": "^6.0.0",
     "stylelint-config-standard": "^25.0.0",
-    "stylelint-config-twbs-bootstrap": "^3.0.1",
+    "stylelint-config-twbs-bootstrap": "^4.0.0",
     "stylelint-order": "^5.0.0"
-  },
-
-  "devDependencies": {}
+  }
 }
