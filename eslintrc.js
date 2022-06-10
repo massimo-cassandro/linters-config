@@ -40,6 +40,7 @@ module.exports = {
 
     'eqeqeq': 'warn',
     'no-extra-semi': 'error',
+    'no-throw-literal': 'off',
     'semi-spacing': ['error', {
       'before': false,
       'after': true
