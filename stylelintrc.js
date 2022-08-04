@@ -381,6 +381,13 @@ module.exports = {
         'scss/operator-no-newline-before': true,
         'scss/operator-no-unspaced': true,
       }
+    },
+    {
+      'files': '**/*module.scss',
+      'extends': ['stylelint-config-css-modules'],
+      'rules': {
+        'selector-class-pattern': '^[a-z]+(_?[A-Z]?[a-z0-9]*)*$',
+      }
     }
   ]
 };
