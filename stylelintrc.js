@@ -331,8 +331,8 @@ module.exports = {
   },
   'overrides': [
     {
-      'files': '**/*.scss',
-      // 'extends': [],
+      'files': ['**/*.scss', '**/*module.scss'],
+      'extends': ['stylelint-config-twbs-bootstrap/'],
       'rules': {
         'scss/at-function-pattern': '^[a-z][a-z-]*$',
         'scss/at-function-parentheses-space-before': 'never',
@@ -384,7 +384,7 @@ module.exports = {
     },
     {
       'files': '**/*module.scss',
-      'extends': ['stylelint-config-css-modules'],
+      'extends': ['stylelint-config-twbs-bootstrap/', 'stylelint-config-css-modules'],
       'rules': {
         'selector-class-pattern': '^[a-z]+(_?[A-Z]?[a-z0-9]*)*$',
       }
