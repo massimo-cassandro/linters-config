@@ -89,7 +89,7 @@ module.exports = {
     ],
 
     'selector-no-qualifying-type': [
-      false,
+      null,
       {
         ignore: ['attribute', 'class', 'id']
       }
