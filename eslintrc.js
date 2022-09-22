@@ -8,10 +8,9 @@ module.exports = {
   },
   'extends': 'eslint:recommended',
   'ignorePatterns': [
-    '**/node_modules/**/*.js',
-    '**/vendor/**/*.js',
-    '**/build/**/*.js',
-    '**/dist/**/*.js',
+    'dist/**/*.*',
+    '**/node_modules/**/*.*',
+    '**/vendor/**/*.*',
     '**/*-min.js',
     '**/*.min.js'
   ],
