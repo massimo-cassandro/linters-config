@@ -1,11 +1,11 @@
 {
   "name": "@massimo-cassandro/linters-config",
-  "version": "1.1.6",
+  "version": "1.2.0",
   "description": "Css & js linters configurations",
   "scripts": {
     "npm update": "npm update",
-    "upd vers + npm publish": "node update-version.mjs && npm publish",
-    "upd vers": "node update-version.mjs"
+    "upd patch vers + npm publish": "node ./node_modules/@massimo-cassandro/dev-utils/src/update-version.mjs --patch-only && npm publish",
+    "upd vers": "node ./node_modules/@massimo-cassandro/dev-utils/src/update-version.mjs"
   },
   "repository": {
     "type": "git",
@@ -41,15 +41,18 @@
     "eslintrc.js"
   ],
   "dependencies": {
-    "eslint": "^8.23.0",
-    "stylelint": "^14.11.0",
+    "eslint": "^8.27.0",
+    "stylelint": "^14.14.1",
     "stylelint-config-css-modules": "^4.1.0",
     "stylelint-config-recommended": "^9.0.0",
     "stylelint-config-recommended-scss": "^7.0.0",
     "stylelint-config-standard": "^28.0.0",
     "stylelint-config-styled-components": "^0.1.1",
-    "stylelint-config-twbs-bootstrap": "^6.0.0",
+    "stylelint-config-twbs-bootstrap": "^7.0.0",
     "stylelint-order": "^5.0.0",
     "stylelint-processor-styled-components": "^1.10.0"
+  },
+  "devDependencies": {
+    "@massimo-cassandro/dev-utils": "^1.1.0"
   }
 }
