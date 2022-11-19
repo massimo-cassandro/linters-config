@@ -4,7 +4,7 @@
   "description": "Css & js linters configurations",
   "scripts": {
     "npm update": "npm update",
-    "upd patch vers + npm publish": "node ./node_modules/@massimo-cassandro/dev-utils/src/update-version.mjs --patch-only && npm publish",
+    "upd patch vers + npm publish": "node ./node_modules/@massimo-cassandro/dev-utils/src/update-version.mjs --patch-only --no-log && npm publish",
     "upd vers": "node ./node_modules/@massimo-cassandro/dev-utils/src/update-version.mjs"
   },
   "repository": {
