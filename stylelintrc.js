@@ -46,7 +46,7 @@ module.exports = {
           'for',
           'error',
           'warn',
-          'debug'
+          'debug',
         ],
       },
     ],
@@ -79,7 +79,12 @@ module.exports = {
     'number-leading-zero': null, //'never',
     'property-no-vendor-prefix': true,
     'selector-attribute-quotes': 'always',
-    'selector-class-pattern': '^[a-z][a-z0-9\\-]*[a-z0-9]$',
+    'selector-class-pattern': [
+      '^[a-z][a-z0-9\\-]*[a-z0-9]$',
+      {
+        resolveNestedSelectors: true
+      }
+    ],
     'selector-list-comma-newline-after': 'always-multi-line',
     'selector-max-type': [
       3,
@@ -383,10 +388,16 @@ module.exports = {
       }
     },
     {
-      'files': '**/*module.scss',
+      'files': ['**/*.scss', '**/*module.css'],
       'extends': ['stylelint-config-twbs-bootstrap/', 'stylelint-config-css-modules'],
       'rules': {
-        'selector-class-pattern': '^[a-z]+(_?[A-Z]?[a-z0-9]*)*$',
+        'selector-class-pattern': [
+          '^[a-z]+(_?[A-Z]?[a-z0-9]*)*$',
+            // '(?<=:global[ \(])^[a-z][a-z0-9\\-]*[a-z0-9]$\)?'
+          {
+            resolveNestedSelectors: true
+          }
+        ],
       }
     }
   ]

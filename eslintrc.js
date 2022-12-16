@@ -22,7 +22,10 @@ module.exports = {
     'indent': [
       'error',
       2,
-      { 'SwitchCase': 1 }
+      {
+        'SwitchCase': 1,
+        'ignoredNodes': ['TemplateLiteral *']
+      }
     ],
     'linebreak-style': [
       'error',
