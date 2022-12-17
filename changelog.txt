@@ -2,3 +2,4 @@
      1.2.0 | 2022-11-20T10:00:00.000Z |
      1.2.1 | 2022-12-16T18:40:31.041Z | Template literal indent fix
      1.2.2 | 2022-12-16T18:42:52.602Z | libs upd.
+     1.2.3 | 2022-12-17T13:55:59.861Z | add eqeqeq ignore null

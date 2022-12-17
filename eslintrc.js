@@ -39,8 +39,7 @@ module.exports = {
       'error',
       'always'
     ],
-
-    'eqeqeq': 'warn',
+    'eqeqeq': ['warn', 'always', {'null': 'ignore'}],
     'no-extra-semi': 'error',
     'no-throw-literal': 'off',
     'semi-spacing': ['error', {
