@@ -388,12 +388,12 @@ module.exports = {
       }
     },
     {
-      'files': ['**/*.scss', '**/*module.css'],
+      'files': ['**/*module.scss', '**/*module.css'],
       'extends': ['stylelint-config-twbs-bootstrap/', 'stylelint-config-css-modules'],
       'rules': {
         'selector-class-pattern': [
           '^[a-z]+(_?[A-Z]?[a-z0-9]*)*$',
-            // '(?<=:global[ \(])^[a-z][a-z0-9\\-]*[a-z0-9]$\)?'
+          // '(?<=:global[ \(])^[a-z][a-z0-9\\-]*[a-z0-9]$\)?'
           {
             resolveNestedSelectors: true
           }
