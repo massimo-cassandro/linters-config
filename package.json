@@ -4,8 +4,8 @@
   "description": "Css & js linters configurations",
   "scripts": {
     "npm update": "npm update",
-    "upd patch vers + npm publish": "node ./node_modules/@massimo-cassandro/dev-utils/src/update-version.mjs --patch-only && npm publish",
-    "upd vers": "node ./node_modules/@massimo-cassandro/dev-utils/src/update-version.mjs"
+    "upd patch vers + npm publish": "node ./node_modules/@massimo-cassandro/dev-utilities/src/update-version.mjs --patch-only && npm publish",
+    "upd vers": "node ./node_modules/@massimo-cassandro/dev-utilities/src/update-version.mjs"
   },
   "repository": {
     "type": "git",
@@ -53,6 +53,6 @@
     "stylelint-processor-styled-components": "^1.10.0"
   },
   "devDependencies": {
-    "@massimo-cassandro/dev-utils": "^1.1.0"
+    "@massimo-cassandro/dev-utilities": "^1.8.3"
   }
 }
