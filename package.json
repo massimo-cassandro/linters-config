@@ -1,6 +1,6 @@
 {
   "name": "@massimo-cassandro/linters-config",
-  "version": "1.2.5",
+  "version": "1.3.0",
   "description": "Css & js linters configurations",
   "scripts": {
     "npm update": "npm update",
@@ -41,18 +41,18 @@
     "eslintrc.js"
   ],
   "dependencies": {
-    "eslint": "^8.27.0",
-    "stylelint": "^14.14.1",
-    "stylelint-config-css-modules": "^4.1.0",
-    "stylelint-config-recommended": "^9.0.0",
-    "stylelint-config-recommended-scss": "^7.0.0",
-    "stylelint-config-standard": "^28.0.0",
+    "eslint": "^8.36.0",
+    "stylelint": "^15.2.0",
+    "stylelint-config-css-modules": "^4.2.0",
+    "stylelint-config-recommended": "^10.0.1",
+    "stylelint-config-recommended-scss": "^9.0.1",
+    "stylelint-config-standard": "^30.0.1",
     "stylelint-config-styled-components": "^0.1.1",
-    "stylelint-config-twbs-bootstrap": "^7.0.0",
-    "stylelint-order": "^5.0.0",
+    "stylelint-config-twbs-bootstrap": "^8.0.0",
+    "stylelint-order": "^6.0.3",
     "stylelint-processor-styled-components": "^1.10.0"
   },
   "devDependencies": {
-    "@massimo-cassandro/dev-utilities": "^1.8.3"
+    "@massimo-cassandro/dev-utilities": "^1.9.5"
   }
 }
