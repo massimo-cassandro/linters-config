@@ -4,8 +4,8 @@
   "description": "Css & js linters configurations",
   "scripts": {
     "npm update": "npm update",
-    "upd patch vers + npm publish": "npx update-version --patch-only && npm publish",
-    "upd vers": "npx update-version"
+    "upd vers": "npx update-version",
+    "npm publish": "npm publish"
   },
   "repository": {
     "type": "git",
