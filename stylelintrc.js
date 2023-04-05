@@ -364,7 +364,8 @@ module.exports = {
               'for',
               'error',
               'warn',
-              'debug'
+              'debug',
+              'return'
             ]
           }
         ],
