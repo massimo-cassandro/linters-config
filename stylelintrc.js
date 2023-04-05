@@ -47,6 +47,7 @@ module.exports = {
           'error',
           'warn',
           'debug',
+          'return'
         ],
       },
     ],
