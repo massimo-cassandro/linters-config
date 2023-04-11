@@ -14,3 +14,4 @@
 2023-04-05T14:03:34.057Z |            1.3.5 | fix
 2023-04-08T13:14:40.775Z |            1.3.6 | Dependencies update
 2023-04-10T15:30:08.416Z |            1.3.7 | Dependencies update
+2023-04-11T08:30:48.156Z |            1.3.8 | 'stylistic/string-quotes': 'single'

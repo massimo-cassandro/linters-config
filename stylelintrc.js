@@ -340,6 +340,7 @@ module.exports = {
       'files': ['**/*.scss', '**/*module.scss'],
       'extends': ['stylelint-config-twbs-bootstrap/'],
       'rules': {
+        'stylistic/string-quotes': 'single',
         'scss/at-function-pattern': '^[a-z][a-z-]*$',
         'scss/at-function-parentheses-space-before': 'never',
         'scss/at-import-no-partial-leading-underscore': null, //true,
