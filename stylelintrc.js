@@ -341,6 +341,11 @@ module.exports = {
       'extends': ['stylelint-config-twbs-bootstrap/'],
       'rules': {
         'stylistic/string-quotes': 'single',
+        'stylistic/selector-list-comma-space-after': null,
+        'stylistic/selector-list-comma-space-before': 'never',
+        'stylistic/selector-list-comma-newline-after': null,
+
+
         'scss/at-function-pattern': '^[a-z][a-z-]*$',
         'scss/at-function-parentheses-space-before': 'never',
         'scss/at-import-no-partial-leading-underscore': null, //true,
