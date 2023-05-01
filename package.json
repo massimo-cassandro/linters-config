@@ -1,6 +1,6 @@
 {
   "name": "@massimo-cassandro/linters-config",
-  "version": "1.3.11",
+  "version": "1.3.12",
   "description": "Css & js linters configurations",
   "scripts": {
     "npm update": "npm update --save",

@@ -344,6 +344,8 @@ module.exports = {
         'stylistic/selector-list-comma-space-after': null,
         'stylistic/selector-list-comma-space-before': 'never',
         'stylistic/selector-list-comma-newline-after': null,
+        'stylistic/value-list-comma-space-after': null,
+        'stylistic/value-list-comma-newline-after': null,
 
 
         'scss/at-function-pattern': '^[a-z][a-z-]*$',
