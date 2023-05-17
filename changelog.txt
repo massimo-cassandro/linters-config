@@ -14,8 +14,9 @@
 2023-04-05T14:03:34.057Z |            1.3.5 | fix
 2023-04-08T13:14:40.775Z |            1.3.6 | Dependencies update
 2023-04-10T15:30:08.416Z |            1.3.7 | Dependencies update
-2023-04-11T08:30:48.156Z |            1.3.8 | 'stylistic/string-quotes': 'single'
-2023-04-12T10:46:28.133Z |            1.3.9 | stylistic fix
+2023-04-11T08:30:48.156Z |            1.3.8 | stylelint: 'stylistic/string-quotes': 'single'
+2023-04-12T10:46:28.133Z |            1.3.9 | stylelint: stylistic fix
 2023-04-24T09:34:36.825Z |           1.3.10 | upd
 2023-04-30T10:59:26.711Z |           1.3.11 | upd dependencies
-2023-05-01T19:58:42.247Z |           1.3.12 | stylistic fix
+2023-05-01T19:58:42.247Z |           1.3.12 | stylelint: stylistic fix
+2023-05-17T08:01:26.081Z |            1.4.0 | stylelint: stylistic implementation

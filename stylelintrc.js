@@ -62,8 +62,7 @@ module.exports = {
     ],
     'font-family-name-quotes': 'always-where-recommended',
 
-    'function-max-empty-lines': 1,
-    'function-parentheses-space-inside': 'never-single-line',
+
     'function-url-no-scheme-relative': true,
     'function-url-quotes': 'always',
 
@@ -76,8 +75,7 @@ module.exports = {
       }
     ],
     // 'media-feature-name-no-vendor-prefix': true,
-    'no-missing-end-of-source-newline': null,
-    'number-leading-zero': null, //'never',
+
     'property-no-vendor-prefix': true,
     'selector-attribute-quotes': 'always',
     'selector-class-pattern': [
@@ -86,7 +84,6 @@ module.exports = {
         resolveNestedSelectors: true
       }
     ],
-    'selector-list-comma-newline-after': 'always-multi-line',
     'selector-max-type': [
       3,
       {
@@ -102,15 +99,27 @@ module.exports = {
     ],
     'selector-no-vendor-prefix': true,
     'shorthand-property-no-redundant-values': true,
+
     // 'shorthand-property-no-redundant-values': [
     //   true,
     //   {
-    //     ignoreShorthands: [
-    //       '/^grid-/'
-    //     ]​
+    //     ignoreShorthands: [ /^grid-/ ]
     //   }
     // ],
-    'string-quotes': 'single', // 'double'
+
+    // =>> stylistic
+    // https://github.com/elirasza/stylelint-stylistic
+    'stylistic/function-max-empty-lines': 1,
+    'stylistic/function-parentheses-space-inside': 'never-single-line',
+    'stylistic/no-missing-end-of-source-newline': null,
+    'stylistic/number-leading-zero': null, //'never',
+    'stylistic/string-quotes': 'single',
+    'stylistic/selector-list-comma-space-after': null,
+    'stylistic/selector-list-comma-space-before': 'never',
+    'stylistic/selector-list-comma-newline-after': 'always-multi-line',
+    'stylistic/value-list-comma-space-after': 'always-single-line',
+    'stylistic/value-list-comma-newline-after': 'always-multi-line', //'never-multi-line',
+    'stylistic/value-list-max-empty-lines': 1,
 
     'value-keyword-case': [
       'lower',
@@ -118,9 +127,7 @@ module.exports = {
         ignoreKeywords: ['currentColor']
       }
     ],
-    'value-list-comma-newline-after': 'always-multi-line', //'never-multi-line',
-    'value-list-comma-space-after': 'always-single-line', //'always',
-    'value-list-max-empty-lines': 1,
+
     'value-no-vendor-prefix': true
 
     // 'order/properties-order': [
@@ -338,14 +345,8 @@ module.exports = {
   'overrides': [
     {
       'files': ['**/*.scss', '**/*module.scss'],
-      'extends': ['stylelint-config-twbs-bootstrap/'],
+      // 'extends': ['stylelint-config-twbs-bootstrap/'],
       'rules': {
-        'stylistic/string-quotes': 'single',
-        'stylistic/selector-list-comma-space-after': null,
-        'stylistic/selector-list-comma-space-before': 'never',
-        'stylistic/selector-list-comma-newline-after': null,
-        'stylistic/value-list-comma-space-after': null,
-        'stylistic/value-list-comma-newline-after': null,
 
 
         'scss/at-function-pattern': '^[a-z][a-z-]*$',
@@ -399,7 +400,7 @@ module.exports = {
     },
     {
       'files': ['**/*module.scss', '**/*module.css'],
-      'extends': ['stylelint-config-twbs-bootstrap/', 'stylelint-config-css-modules'],
+      'extends': [/* 'stylelint-config-twbs-bootstrap/', */ 'stylelint-config-css-modules'],
       'rules': {
         'selector-class-pattern': [
           '^[a-z]+(_?[A-Z]?[a-z0-9]*)*$',
