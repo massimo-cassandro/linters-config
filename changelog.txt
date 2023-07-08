@@ -23,3 +23,4 @@
 2023-06-21T15:11:44.568Z |            1.4.1 | Upd. dependencies
 2023-07-03T14:16:07.977Z |            1.4.2 | Upd. dependencies
 2023-07-07T08:43:42.732Z |            1.4.3 | Upd. dependencies
+2023-07-08T10:52:58.422Z |            1.4.4 | Downgrade stylelint to 15.9 waiting for stylistic fix for 15.10
