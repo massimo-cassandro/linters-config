@@ -1,6 +1,6 @@
 {
   "name": "@massimo-cassandro/linters-config",
-  "version": "1.4.5",
+  "version": "1.4.6",
   "description": "Css & js linters configurations",
   "scripts": {
     "npm update": "npm update --save",
@@ -48,7 +48,7 @@
     "stylelint-config-recommended-scss": "^9.0.1",
     "stylelint-config-standard": "^30.0.1",
     "stylelint-config-styled-components": "^0.1.1",
-    "stylelint-config-twbs-bootstrap": "^11.0.0",
+    "stylelint-config-twbs-bootstrap": "^11.0.1",
     "stylelint-order": "^6.0.3",
     "stylelint-processor-styled-components": "^1.10.0",
     "stylelint-stylistic": "^0.4.3"
