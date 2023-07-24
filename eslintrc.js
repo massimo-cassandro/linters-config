@@ -40,6 +40,7 @@ module.exports = {
       'always'
     ],
     'eqeqeq': ['warn', 'always', {'null': 'ignore'}],
+    'no-extra-boolean-cast': 'off',
     'no-extra-semi': 'error',
     'no-throw-literal': 'off',
     'semi-spacing': ['error', {
