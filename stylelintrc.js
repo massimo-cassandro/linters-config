@@ -30,6 +30,7 @@ module.exports = {
           'variants',
           'responsive',
           'screen',
+          'config',
 
           // sass
           'extend',
@@ -355,7 +356,7 @@ module.exports = {
         'scss/at-import-partial-extension': 'never',
         'scss/at-mixin-named-arguments': null,
         'scss/at-mixin-parentheses-space-before': 'never',
-        'scss/at-rule-no-unknown': true,
+        // 'scss/at-rule-no-unknown': true,
         'scss/at-rule-no-unknown': [
           true,
           {
@@ -368,6 +369,7 @@ module.exports = {
               'variants',
               'responsive',
               'screen',
+              'config',
 
               // sass
               'extend',
