@@ -30,3 +30,4 @@
 2023-07-24T10:13:12.621Z |            1.5.1 | eslint: 'no-extra-boolean-cast': 'off'
 2023-08-28T09:26:49.095Z |            1.5.2 | fix tailwind support
 2023-08-28T12:31:27.566Z |            1.5.3 | added ignoreAtRules → config rule (tailwind)
+2023-09-17T15:17:44.848Z |            1.5.4 | Upd. dependencies
