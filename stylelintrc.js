@@ -112,6 +112,7 @@ module.exports = {
     // https://github.com/elirasza/stylelint-stylistic
     'stylistic/function-max-empty-lines': 1,
     'stylistic/function-parentheses-space-inside': 'never-single-line',
+    'stylistic/no-empty-first-line': null,
     'stylistic/no-missing-end-of-source-newline': null,
     'stylistic/number-leading-zero': null, //'never',
     'stylistic/string-quotes': 'single',
