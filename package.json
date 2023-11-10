@@ -1,6 +1,6 @@
 {
   "name": "@massimo-cassandro/linters-config",
-  "version": "1.5.5",
+  "version": "1.5.6",
   "description": "Css & js linters configurations",
   "scripts": {
     "npm update": "npm update --save",
@@ -41,7 +41,7 @@
     "eslintrc.js"
   ],
   "dependencies": {
-    "eslint": "^8.52.0",
+    "eslint": "^8.53.0",
     "eslint-config-react-app": "^7.0.1",
     "stylelint": "^15.11.0",
     "stylelint-config-css-modules": "^4.3.0",

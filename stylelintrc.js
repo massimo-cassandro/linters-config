@@ -121,7 +121,7 @@ module.exports = {
     'stylistic/selector-list-comma-newline-after': 'always-multi-line',
     'stylistic/value-list-comma-space-after': 'always-single-line',
     'stylistic/value-list-comma-newline-after': 'always-multi-line', //'never-multi-line',
-    'stylistic/value-list-max-empty-lines': 1,
+    'stylistic/value-list-max-empty-lines': 3,
 
     'value-keyword-case': [
       'lower',
