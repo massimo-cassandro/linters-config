@@ -54,13 +54,14 @@ module.exports = {
     ],
 
     // 'color-function-notation': 'legacy',
-    'comment-empty-line-before': [
-      'always',
-      {
-        // except: ['first-nested'],
-        ignore: ['after-comment', 'stylelint-commands']
-      }
-    ],
+    // 'comment-empty-line-before': [
+    //   'always',
+    //   {
+    //     // except: ['first-nested'],
+    //     ignore: ['after-comment', 'stylelint-commands']
+    //   }
+    // ],
+    'comment-empty-line-before': null,
     'font-family-name-quotes': 'always-where-recommended',
 
 
