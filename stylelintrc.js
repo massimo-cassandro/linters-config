@@ -111,10 +111,11 @@ module.exports = {
 
     // =>> stylistic
     // https://github.com/elirasza/stylelint-stylistic
-    'stylistic/function-max-empty-lines': 1,
+    'stylistic/function-max-empty-lines': 2,
     'stylistic/function-parentheses-space-inside': 'never-single-line',
     'stylistic/no-empty-first-line': null,
     'stylistic/no-missing-end-of-source-newline': null,
+    'stylistic/max-empty-lines': [3, {ignore: ['comments']}],
     'stylistic/number-leading-zero': null, //'never',
     'stylistic/string-quotes': 'single',
     'stylistic/selector-list-comma-space-after': null,

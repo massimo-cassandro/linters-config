@@ -1,11 +1,11 @@
 {
   "name": "@massimo-cassandro/linters-config",
-  "version": "1.5.7",
+  "version": "1.5.8",
   "description": "Css & js linters configurations",
   "scripts": {
-    "npm update": "npm update --save",
     "upd vers": "npx update-version --default-descr='Upd. dependencies'",
-    "npm publish": "npm publish"
+    "npm publish": "npm publish",
+    "npm update": "npm update --save"
   },
   "repository": {
     "type": "git",
