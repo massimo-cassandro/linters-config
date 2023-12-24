@@ -1,14 +1,14 @@
 /* eslint-env node */
-'use strict';
 
 module.exports = {
   extends: [
     'stylelint-config-twbs-bootstrap/'
     // 'stylelint-config-standard'
   ],
-  // 'plugins': [
-  //   'stylelint-order'
-  // ],
+  plugins: [
+    // 'stylelint-order',
+    '@stylistic/stylelint-plugin'
+  ],
   'ignoreFiles': [
     '**/node_modules/**/*.*',
     '**/vendor/**/*.*',
@@ -111,19 +111,19 @@ module.exports = {
 
     // =>> stylistic
     // https://github.com/elirasza/stylelint-stylistic
-    'stylistic/function-max-empty-lines': 2,
-    'stylistic/function-parentheses-space-inside': 'never-single-line',
-    'stylistic/no-empty-first-line': null,
-    'stylistic/no-missing-end-of-source-newline': null,
-    'stylistic/max-empty-lines': [3, {ignore: ['comments']}],
-    'stylistic/number-leading-zero': null, //'never',
-    'stylistic/string-quotes': 'single',
-    'stylistic/selector-list-comma-space-after': null,
-    'stylistic/selector-list-comma-space-before': 'never',
-    'stylistic/selector-list-comma-newline-after': 'always-multi-line',
-    'stylistic/value-list-comma-space-after': 'always-single-line',
-    'stylistic/value-list-comma-newline-after': 'always-multi-line', //'never-multi-line',
-    'stylistic/value-list-max-empty-lines': 3,
+    '@stylistic/function-max-empty-lines': 2,
+    '@stylistic/function-parentheses-space-inside': 'never-single-line',
+    '@stylistic/no-empty-first-line': null,
+    '@stylistic/no-missing-end-of-source-newline': null,
+    '@stylistic/max-empty-lines': [3, {ignore: ['comments']}],
+    '@stylistic/number-leading-zero': null, //'never',
+    '@stylistic/string-quotes': 'single',
+    '@stylistic/selector-list-comma-space-after': null,
+    '@stylistic/selector-list-comma-space-before': 'never',
+    '@stylistic/selector-list-comma-newline-after': 'always-multi-line',
+    '@stylistic/value-list-comma-space-after': 'always-single-line',
+    '@stylistic/value-list-comma-newline-after': 'always-multi-line', //'never-multi-line',
+    '@stylistic/value-list-max-empty-lines': 3,
 
     'value-keyword-case': [
       'lower',

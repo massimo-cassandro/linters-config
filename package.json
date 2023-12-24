@@ -1,11 +1,11 @@
 {
   "name": "@massimo-cassandro/linters-config",
-  "version": "1.5.9",
+  "version": "1.6.0",
   "description": "Css & js linters configurations",
   "scripts": {
     "upd vers": "npx update-version --default-descr='Upd. dependencies'",
-    "npm publish": "npm publish",
-    "npm update": "npm update --save"
+    "npm-publish": "npm publish",
+    "npm-update": "npm update --save"
   },
   "repository": {
     "type": "git",
@@ -37,22 +37,21 @@
   "author": "Massimo Cassandro",
   "license": "MIT",
   "files": [
-    "stylelintrc.js",
-    "eslintrc.js"
+    "stylelintrc.*",
+    "eslintrc.*"
   ],
   "dependencies": {
+    "@stylistic/stylelint-plugin": "^2.0.0",
     "eslint": "^8.56.0",
     "eslint-config-react-app": "^7.0.1",
-    "stylelint": "^15.11.0",
+    "stylelint": "^16.0.2",
     "stylelint-config-css-modules": "^4.4.0",
-    "stylelint-config-recommended": "^13.0.0",
-    "stylelint-config-recommended-scss": "^13.1.0",
-    "stylelint-config-standard": "^34.0.0",
+    "stylelint-config-recommended": "^14.0.0",
+    "stylelint-config-recommended-scss": "^14.0.0",
+    "stylelint-config-standard": "^35.0.0",
     "stylelint-config-styled-components": "^0.1.1",
-    "stylelint-config-twbs-bootstrap": "^12.0.0",
-    "stylelint-order": "^6.0.4",
-    "stylelint-processor-styled-components": "^1.10.0",
-    "stylelint-stylistic": "^0.4.5"
+    "stylelint-config-twbs-bootstrap": "^13.0.0",
+    "stylelint-order": "^6.0.4"
   },
   "devDependencies": {
     "@massimo-cassandro/dev-utilities": "^1.20.2"

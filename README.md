@@ -8,7 +8,7 @@ In `package.json`
   "stylelint": {
     "extends": "@massimo-cassandro/linters-config/stylelintrc.js",
     "ignoreFiles": [
-      "**/*.css"
+      "build/**/*.css"
     ],
     "rules": {}
   },
