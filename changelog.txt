@@ -37,3 +37,4 @@
 2023-11-16T11:10:28.515Z |            1.5.8 | Upd. dependencies
 2023-12-23T15:41:19.311Z |            1.5.9 | Upd. dependencies
 2023-12-24T16:49:45.713Z |            1.6.0 | Switch to stylelint 16
+2024-02-15T12:40:24.907Z |            1.6.1 | Upd. dependencies
