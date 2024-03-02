@@ -1,5 +1,8 @@
 # Linters config
 
+> ** Archived: **
+> stylelint config moved to <https://github.com/massimo-cassandro/stylelint-config>
+> eslint config moved to <https://github.com/massimo-cassandro/eslint-config>
 
 In `package.json`
 
